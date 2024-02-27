@@ -47,17 +47,17 @@ body
   flex-basis: 100px;
   border-radius: 5px; 
 }
-@media  (max-width: 600px)
+@media  (max-width: 700px)
 {
 .content{
   flex-direction: column;
 }
 .main{
-  margin-left: 20px;
+  margin-left: 30px;
   margin-top: -55px;
 }
 .content img{
-  width: 60%;
+  width: 90%;
   height: 400px;
 }
 }
