@@ -4,8 +4,8 @@ function updateTimer() {
     countDownDate.setDate(countDownDate.getDate() + 10); // 10 days from now
      
   var x = setInterval(function() {
-      //get current date
-     var now = new Date().getTime();\
+      //get current date and time
+     var now = new Date().getTime();
       
       // calculate the distance between now and countdown date
      var distance = countDownDate.getTime() - now;
@@ -26,7 +26,7 @@ function updateTimer() {
        if  (distance < 0) {
           clearInterval(x);
           countDownDate.setDate(countDownDate.getDate() + 10); // 10 days from now
-          updatetimer();//Restart timer
+          updatetimer(); //Restart timer
         }
     }, 1000);
 }
