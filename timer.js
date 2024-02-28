@@ -25,7 +25,7 @@ function updateTimer() {
        //If the count down is over, reset the countdown after 10days
        if  (distance < 0) {
           clearInterval(x);
-          countDownDate.setDate(countDownDate.getDate() + 10);// 10 days from now
+          countDownDate.setDate(countDownDate.getDate() + 10); // 10 days from now
           updatetimer();//Restart timer
         }
     }, 1000);
