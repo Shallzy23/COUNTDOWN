@@ -48,14 +48,14 @@ body
   flex-basis: 100px;
   border-radius: 5px; 
 }
-@media  (max-width: 500px)
+@media  (max-width: 700px)
 {
 .content{
   flex-direction: column;
 }
 .main{
   margin-left: 30px;
-  margin-top: -60px;
+  margin-top: -70px;
 }
 .content img{
   width: 100%;
