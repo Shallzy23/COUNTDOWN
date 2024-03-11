@@ -1,7 +1,7 @@
 function updateTimer() {
     //set initial countdown date
     var countDownDate = new Date();
-    countDownDate.setDate(countDownDate.getDate() + 11); // 10 days from now
+    countDownDate.setDate(countDownDate.getDate() + 10); // 10 days from now
      
   var x = setInterval(function() {
       //get current date and time
@@ -25,7 +25,7 @@ function updateTimer() {
        //If the count down is over, reset the countdown after 10days
        if  (distance < 0) {
           clearInterval(x);
-          countDownDate.setDate(countDownDate.getDate() + 11); // 10 days from now
+          countDownDate.setDate(countDownDate.getDate() + 10); // 10 days from now
           updatetimer(); //Restart timer
         }
     }, 1000);
